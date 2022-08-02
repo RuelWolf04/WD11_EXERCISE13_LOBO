@@ -1,0 +1,10 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$wolf-theme-colors: (
+  "wolf1" : rgb(123, 255, 0)
+  );
+  
+  $theme-colors: map-merge($wolf-theme-colors , $theme-colors);
+  @import "../node_modules/bootstrap/scss/bootstrap.scss";
